@@ -20,3 +20,16 @@ tags:
 [视频](https://space.bilibili.com/391117803)
 ```
 
+
+```
+# 后台运行
+sudo docker compose up -d
+# 前台运行
+sudo docker compose up
+# 停止运行
+sudo docker compose down
+# 重启/更新
+sudo docker compose restart
+# 查看最后的100行日志并持续输出日志
+sudo docker compose logs -f --tail=100
+```
