@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* 通用选择器 */
+    /* 匹配所有元素 */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    /* 元素选择器 */
+    /* 匹配所有div元素 */
+    div {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+    }
+    /* 类选择器 */
+    /* 匹配所有class里面是eg的元素 */
+    .eg {
+      width: 200px;
+      height: 200px;
+      background-color: yellow;
+    }
+    /* ID 选择器 */
+    /* 匹配所有id里面是eg-name的元素 */
+    #eg-name {
+      width: 300px;
+      height: 300px;
+      background-color: blue;
+    }
+    /* 属性选择器 */
+    /* 匹配所有属性为title的元素 */
+    [title] {
+      width: 400px;
+      height: 400px;
+      background-color: green;
+    }
+    /* 匹配所有属性为title且值为my-h2的元素 */
+    [title=my-h2] {
+      width: 500px;
+      height: 500px;
+      background-color: gray;
+    }
+  </style>
+</head>
+<body>
+  <div>123</div>
+  <div class="eg"></div>
+  <div id="eg-name"></div>
+  <div title="my-div"></div>
+  <h2 title="my-h2"></h2>
+</body>
+</html>
