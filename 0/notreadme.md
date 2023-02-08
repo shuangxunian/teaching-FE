@@ -36,8 +36,17 @@ sudo docker compose logs -f --tail=100
 service docker start 
 service docker restart 
 service docker stop
-
 ```
+
+```shell
+sudo yum search wqy
+
+yum install wqy-microhei-fonts.noarch -y
+yum install wqy-unibit-fonts.noarch -y
+yum install wqy-zenhei-fonts.noarch -y
+```
+
+
 
 ```
 qq快捷录屏
