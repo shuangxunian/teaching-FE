@@ -32,6 +32,11 @@ sudo docker compose down
 sudo docker compose restart
 # 查看最后的100行日志并持续输出日志
 sudo docker compose logs -f --tail=100
+
+service docker start 
+service docker restart 
+service docker stop
+
 ```
 
 ```
